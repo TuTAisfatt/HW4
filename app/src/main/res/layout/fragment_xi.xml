@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8F8F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageLeader3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/le3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/leader3" />
+
+        <TextView
+            android:id="@+id/textLeaderInfo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xi_jinping_a_born_15_june_1953_is_a_chinese_politician_who_has_been_the_general_secretary_of_the_chinese_communist_party_ccp_and_chairman_of_the_central_military_commission_cmc_and_thus_the_paramount_leader_of_china_since_2012_since_2013_xi_has_also_served_as_the_seventh_president_of_china_as_a_member_of_the_fifth_generation_of_chinese_leadership_xi_is_the_first_ccp_general_secretary_born_after_the_establishment_of_the_people_s_republic_of_china_prc"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="4dp"
+            tools:ignore="VisualLintLongText" />
+    </LinearLayout>
+</ScrollView>

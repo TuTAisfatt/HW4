@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/franceflag"
+            android:scaleType="fitXY"
+            android:src="@drawable/france_flag" />
+
+        <TextView
+            android:text="@string/capital_paris_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/largest_city_paris_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/national_language_french_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/total_area_551_695_km_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/currency_euro_eur_n_france"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/n_france_i_officially_the_french_republic_j_is_a_country_located_primarily_in_western_europe_its_overseas_regions_and_territories_include_french_guiana_in_south_america_saint_pierre_and_miquelon_in_the_north_atlantic_the_french_west_indies_and_many_islands_in_oceania_and_the_indian_ocean_giving_it_one_of_the_largest_discontiguous_exclusive_economic_zones_in_the_world_metropolitan_france_shares_borders_with_belgium_and_luxembourg_to_the_north_germany_to_the_northeast_switzerland_to_the_east_italy_and_monaco_to_the_southeast_andorra_and_spain_to_the_south_and_a_maritime_border_with_the_united_kingdom_to_the_northwest_its_metropolitan_area_extends_from_the_rhine_to_the_atlantic_ocean_and_from_the_mediterranean_sea_to_the_english_channel_and_the_north_sea_its_eighteen_integral_regions_five_of_which_are_overseas_span_a_combined_area_of_632_702_km2_244_288_sq_mi_and_have_an_estimated_total_population_of_over_68_6_million_as_of_january_2025_france_is_a_semi_presidential_republic_and_its_capital_largest_city_and_main_cultural_and_economic_centre_is_paris_metropolitan_france_was_settled_during_the_iron_age_by_celtic_tribes_known_as_gauls_before_rome_annexed_the_area_in_51_bc_leading_to_a_distinct_gallo_roman_culture_in_the_early_middle_ages_the_franks_formed_the_kingdom_of_francia_which_became_the_heartland_of_the_carolingian_empire_the_treaty_of_verdun_of_843_partitioned_the_empire_with_west_francia_evolving_into_the_kingdom_of_france_in_the_high_middle_ages_france_was_a_powerful_but_decentralized_feudal_kingdom_but_from_the_mid_14th_to_the_mid_15th_centuries_france_was_plunged_into_a_dynastic_conflict_with_england_known_as_the_hundred_years_war_in_the_16th_century_french_culture_flourished_during_the_french_renaissance_and_a_french_colonial_empire_emerged_internally_france_was_dominated_by_the_conflict_with_the_house_of_habsburg_and_the_french_wars_of_religion_between_catholics_and_huguenots_france_was_successful_in_the_thirty_years_war_and_further_increased_its_influence_during_the_reign_of_louis_xiv_the_french_revolution_of_1789_overthrew_the_ancien_r_gime_and_produced_the_declaration_of_the_rights_of_man_which_expresses_the_nation_s_ideals_to_this_day_france_reached_its_political_and_military_zenith_in_the_early_19th_century_under_napoleon_bonaparte_subjugating_part_of_continental_europe_and_establishing_the_first_french_empire_the_collapse_of_the_empire_initiated_a_period_of_relative_decline_in_which_france_endured_the_bourbon_restoration_until_the_founding_of_the_french_second_republic_which_was_succeeded_by_the_second_french_empire_upon_napoleon_iii_s_takeover_his_empire_collapsed_during_the_franco_prussian_war_in_1870_this_led_to_the_establishment_of_the_third_french_republic_and_subsequent_decades_saw_a_period_of_economic_prosperity_and_cultural_and_scientific_flourishing_known_as_the_belle_poque_france_was_one_of_the_major_participants_of_world_war_i_from_which_it_emerged_victorious_at_great_human_and_economic_cost_it_was_among_the_allies_of_world_war_ii_but_it_surrendered_and_was_occupied_in_1940_following_its_liberation_in_1944_the_short_lived_fourth_republic_was_established_and_later_dissolved_in_the_course_of_the_defeat_in_the_algerian_war_the_current_fifth_republic_was_formed_in_1958_by_charles_de_gaulle_algeria_and_most_french_colonies_became_independent_in_the_1960s_with_the_majority_retaining_close_economic_and_military_ties_with_france_france_retains_its_centuries_long_status_as_a_global_centre_of_art_science_and_philosophy_it_hosts_the_fourth_largest_number_of_unesco_world_heritage_sites_and_is_the_world_s_leading_tourist_destination_having_received_100_million_foreign_visitors_in_2023_a_developed_country_france_has_a_high_nominal_per_capita_income_globally_and_its_advanced_economy_ranks_among_the_largest_in_the_world_by_both_nominal_gdp_and_ppp_adjusted_gdp_it_is_a_great_power_being_one_of_the_five_permanent_members_of_the_united_nations_security_council_and_an_official_nuclear_weapon_state_the_country_is_part_of_multiple_international_organizations_and_forums"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="VisualLintLongText" />
+
+    </LinearLayout>
+</ScrollView>

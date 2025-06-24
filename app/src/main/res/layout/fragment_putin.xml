@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8F8F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageLeader2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/le2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/leader2" />
+
+        <TextView
+            android:id="@+id/textLeaderInfo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vladimir_vladimirovich_putin_is_a_russian_politician_and_former_intelligence_officer_who_has_served_as_president_of_russia_since_2012_having_previously_served_from_2000_to_2008_putin_also_served_as_prime_minister_of_russia_from_1999_to_2000_and_again_from_2008_to_2012_he_is_the_longest_serving_russian_president_since_the_independence_of_russia_from_the_soviet_union_putin_worked_as_a_kgb_foreign_intelligence_officer_for_16_years_rising_to_the_rank_of_lieutenant_colonel"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="4dp"
+            tools:ignore="VisualLintLongText" />
+    </LinearLayout>
+</ScrollView>

@@ -7,13 +7,222 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/the_information_book_app"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.511" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="422dp"
+        android:layout_height="453dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="VisualLintBounds">
+
+        <!-- Country Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCountries"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="6dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutCountries"
+                android:layout_width="184dp"
+                android:layout_height="191dp"
+                android:layout_marginStart="9dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imgCountries"
+                    android:layout_width="172dp"
+                    android:layout_height="143dp"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/countries" />
+
+                <TextView
+                    android:id="@+id/textViewCountries"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:text="@string/the_countries"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    tools:ignore="TextSizeCheck" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Leaders -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLeaders"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp"
+            tools:ignore="VisualLintBounds,DuplicateSpeakableTextCheck">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutLeaders"
+                android:layout_width="184dp"
+                android:layout_height="191dp"
+                android:layout_marginStart="9dp"
+                android:contentDescription="@string/todo4"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imgLeaders"
+                    android:layout_width="172dp"
+                    android:layout_height="143dp"
+                    android:contentDescription="@string/todo3"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/leaders" />
+
+                <TextView
+                    android:id="@+id/textViewLeaders"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:text="@string/the_leaders"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    tools:ignore="TextSizeCheck" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Museums -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardMuseums"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="6dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp"
+            app:layout_column="0"
+            app:layout_row="1"
+            tools:ignore="VisualLintBounds">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMuseums"
+                android:layout_width="184dp"
+                android:layout_height="191dp"
+                android:layout_marginStart="9dp"
+                android:contentDescription="@string/todo4"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imgMuseums"
+                    android:layout_width="172dp"
+                    android:layout_height="143dp"
+                    android:contentDescription="@string/todo3"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/museums"
+                    tools:ignore="ImageContrastCheck" />
+
+                <TextView
+                    android:id="@+id/textViewMuseums"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:text="@string/the_museums"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    tools:ignore="TextSizeCheck" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Wonders -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardWonders"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="6dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp"
+            app:layout_column="1"
+            app:layout_row="1"
+            tools:ignore="VisualLintBounds">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutWonders"
+                android:layout_width="184dp"
+                android:layout_height="191dp"
+                android:layout_marginStart="9dp"
+                android:contentDescription="@string/todo4"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imgWonders"
+                    android:layout_width="172dp"
+                    android:layout_height="143dp"
+                    android:contentDescription="@string/todo3"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/wonders" />
+
+                <TextView
+                    android:id="@+id/textViewWonders"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:text="@string/the_seven_wonders_of_the_world"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    tools:ignore="TextSizeCheck" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.gridlayout.widget.GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

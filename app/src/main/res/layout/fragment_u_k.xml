@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/ukflag"
+            android:scaleType="fitXY"
+            android:src="@drawable/uk_flag" />
+
+        <TextView
+            android:text="@string/capital_london_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/largest_city_london_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/national_language_english_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/total_area_242_495_km_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/currency_gbp_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/n_the_united_kingdom_of_great_britain_and_northern_ireland_commonly_known_as_the_united_kingdom_uk_or_britain_is_a_country_in_northwestern_europe_off_the_coast_of_the_continental_mainland_it_comprises_england_scotland_wales_and_northern_ireland_the_uk_includes_the_island_of_great_britain_the_north_eastern_part_of_the_island_of_ireland_and_most_of_the_smaller_islands_within_the_british_isles_covering_244_376_km_northern_ireland_shares_a_land_border_with_the_republic_of_ireland_otherwise_the_united_kingdom_is_surrounded_by_the_atlantic_ocean_the_north_sea_the_english_channel_the_celtic_sea_and_the_irish_sea"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="VisualLintLongText" />
+
+    </LinearLayout>
+</ScrollView>

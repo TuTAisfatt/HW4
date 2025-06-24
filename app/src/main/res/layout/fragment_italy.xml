@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/italyflag"
+            android:scaleType="fitXY"
+            android:src="@drawable/italy_flag" />
+
+        <TextView
+            android:text="@string/capital_rome_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/largest_city_rome_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/national_language_italian_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/total_area_301_340_km_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/currency_euro_eur_n"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/n_italy_a_officially_the_italian_republic_b_is_a_country_in_southern_and_western_europe_c_it_consists_of_a_peninsula_that_extends_into_the_mediterranean_sea_with_the_alps_on_its_northern_land_border_as_well_as_nearly_800_islands_notably_sicily_and_sardinia_italy_shares_land_borders_with_france_to_the_west_switzerland_and_austria_to_the_north_slovenia_to_the_east_and_the_two_enclaves_of_vatican_city_and_san_marino_it_is_the_tenth_largest_country_in_europe_by_area_covering_301_340_km2_116_350_sq_mi_and_the_third_most_populous_member_state_of_the_european_union_with_nearly_59_million_inhabitants_italy_s_capital_and_largest_city_is_rome_other_major_cities_include_milan_naples_turin_palermo_bologna_florence_genoa_and_venice_the_history_of_italy_goes_back_to_numerous_italic_peoples_notably_including_the_ancient_romans_who_conquered_the_mediterranean_world_during_the_roman_republic_and_ruled_it_for_centuries_during_the_roman_empire_with_the_spread_of_christianity_rome_became_the_seat_of_the_catholic_church_and_the_papacy_barbarian_invasions_and_other_factors_led_to_the_decline_and_fall_of_the_western_roman_empire_between_late_antiquity_and_the_early_middle_ages_by_the_11th_century_italian_city_states_and_maritime_republics_expanded_bringing_renewed_prosperity_through_commerce_and_laying_the_groundwork_for_modern_capitalism_the_italian_renaissance_flourished_during_the_15th_and_16th_centuries_and_spread_to_the_rest_of_europe_italian_explorers_discovered_new_routes_to_the_far_east_and_the_new_world_contributing_significantly_to_the_age_of_discovery_after_centuries_of_political_and_territorial_divisions_italy_was_almost_entirely_unified_in_1861_following_wars_of_independence_and_the_expedition_of_the_thousand_establishing_the_kingdom_of_italy_from_the_late_19th_to_the_early_20th_century_italy_rapidly_industrialised_mainly_in_the_north_and_acquired_a_colonial_empire_while_the_south_remained_largely_impoverished_fueling_a_large_immigrant_diaspora_to_the_americas_from_1915_to_1918_italy_took_part_in_world_war_i_with_the_entente_against_the_central_powers_in_1922_the_italian_fascist_dictatorship_was_established_during_world_war_ii_italy_was_first_part_of_the_axis_until_its_surrender_to_the_allied_powers_1940_1943_then_a_co_belligerent_of_the_allies_during_the_italian_resistance_and_the_liberation_of_italy_1943_1945_following_the_war_the_monarchy_was_replaced_by_a_republic_and_the_country_enjoyed_a_strong_recovery_a_developed_country_with_an_advanced_economy_italy_has_the_eighth_largest_nominal_gdp_in_the_world_the_second_largest_manufacturing_sector_in_europe_and_plays_a_significant_role_in_regional_and_to_a_lesser_extent_global_economic_military_cultural_and_political_affairs_italy_is_a_founding_and_leading_member_of_the_european_union_and_is_part_of_numerous_other_international_organizations_and_forums_as_a_cultural_superpower_italy_has_long_been_a_renowned_global_centre_of_art_music_literature_cuisine_fashion_science_and_technology_and_the_source_of_multiple_inventions_and_discoveries_it_has_the_highest_number_of_world_heritage_sites_60_and_is_the_fourth_most_visited_country_in_the_world"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="VisualLintLongText" />
+
+    </LinearLayout>
+</ScrollView>
